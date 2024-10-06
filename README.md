@@ -12,7 +12,7 @@ Co aplikace zatím obsahuje:
 - Seznam surovin jednotlivých uživatelů (zatím nezávisle na loginu) - odebírání a přidávání surovin
 - Většinu komponent, které se dají použít pro dodělání dalších endpointů
 
-Co aplikaci chybí pro plnou funkčnost a plánuju v budoucnu dodělat?:
+Co aplikaci chybí pro plnou funkčnost a plánuju v budoucnu dodělat:
 - Login / Registrační systém uživatelů
 - Nastavení
 - Editor na vytváření receptů
