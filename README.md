@@ -18,3 +18,4 @@ Co aplikaci chybí pro plnou funkčnost a plánuju v budoucnu dodělat:
 - Editor na vytváření receptů
 - Stránka zobrazení receptu
 - Hlavní stránka pro feed a vyhledávání receptů
+- Responzivita
