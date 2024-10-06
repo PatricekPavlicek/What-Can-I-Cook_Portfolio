@@ -2,6 +2,9 @@
 
 Hlavní myšlenka aplikace je vytvořit vyhledávač receptů, podle toho, jaké mám zrovna k dispozici suroviny a k tomu vytvořit další základní chování (uživatelské profily, oblíbené recepty, autoři...)
 
+> [!NOTE]
+> Screenshoty z live aplikace se nachází ve složce `screenshots`
+
 Tato aplikace není kompletní, jsou zde pouze některé funkční části - komponenty a endpointy, pár důležitých endpointů a funkcí jsem zatím nestihl dodělat
 Frontend aplikace je vytvořen v Reactu
 Testovací API je jednoduchý JSON-Server, pomocí kterého jsem testoval fetch requesty z frontendu a posílal data na frontend / na server
