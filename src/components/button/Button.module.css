@@ -1,0 +1,20 @@
+.button{
+    color: var(--white);
+    font-size: var(--text-size-h6);
+    font-weight: 500;
+    border-radius: var(--border-radius-m);
+    padding: 12px 50px;
+    margin-bottom: 20px;
+    outline: none;
+    border: none;
+}
+
+.button:hover{
+    cursor: pointer;
+    filter: brightness(90%); 
+    transition: filter 300ms;
+}
+
+.button:active{
+    transform: scale(0.98);
+}

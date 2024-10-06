@@ -1,0 +1,31 @@
+.text{
+    color: var(--blue);
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    font-weight: bold;
+    font-size: var(--size-small-l);
+}
+
+.text::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    background-color: var(--blue);
+    transform-origin: bottom right;
+    transition: transform 250ms;
+}
+
+.text:hover{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.text:hover::after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}

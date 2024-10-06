@@ -1,0 +1,125 @@
+.main-wrapper{
+    width: 250px;
+    border: none;
+    border-radius: var(--border-radius-l);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    box-shadow: 
+    0px 4px 8px rgba(0, 0, 0, 0.1),  /* sides */
+    0px 10px 20px rgba(0, 0, 0, 0.15); /* going down */
+}
+
+.recipe-image-wrapper{
+    width: 100%;
+    height: 180px;
+}
+
+.recipe-image{
+    border-top-left-radius: var(--border-radius-l);
+    border-top-right-radius: var(--border-radius-l);
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.rating-wrapper{
+    width: 90%;
+    margin: 0;
+}
+
+.recipe-name-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    width: 90%;
+    height: 60px;
+    padding: 0;
+}
+
+.recipe-name{
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: normal;
+    margin: 0;
+}
+
+.missing-ingredients-wrapper{
+    height: 80px;
+    margin: 10px 0 0 0;
+    width: 90%;
+}
+
+.recipe-parameters-list{
+    margin: 0;
+    width: 90%;
+    padding: 0;
+    list-style-type: none;
+}
+
+.recipe-parameters-list-item{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.recipe-parameters-list-item::after{
+    content: '';
+    position: absolute;
+    width: 70%;
+    height: 1px;
+    background-color: var(--dark-gray);
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.recipe-parameters-list-item-icon{
+    position: absolute;
+    left: 10px;
+    width: 35px;
+    height: 35px;
+}
+
+.recipe-parameters-list-item-text{
+
+}
+
+.author-wrapper{
+    margin-top: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 90%;
+}
+
+.author-text{
+    position: absolute;
+    left: 10px;
+    margin-right: 15px;
+}
+
+.author-link{
+    position: relative;
+    background-color: var(--blue);
+    text-decoration: none;
+    color: var(--white);
+    padding: 5px 10px;
+    border-radius: var(--border-radius-m)
+}
+
+.author-link:hover{
+    font-weight: 600;
+    cursor: pointer;
+    background-color: #3c8aff;
+}

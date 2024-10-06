@@ -1,0 +1,1292 @@
+{
+  "recipes": [
+    {
+      "id": "1",
+      "image": "https://i.ibb.co/GvDtkfN/recipe-1.jpg",
+      "ratingValue": 4.5,
+      "ratingAmount": 100,
+      "recipeName": "Banánová mísa s piškoty a jablkem",
+      "difficulty": 3,
+      "time": 60,
+      "authorId": 1,
+      "authorName": "Pepa Pavel"
+    },
+    {
+      "id": "2",
+      "image": "https://i.ibb.co/0q2fKwM/recipe-2.jpg",
+      "ratingValue": 4.7,
+      "ratingAmount": 150,
+      "recipeName": "Čokoládový dort s malinami",
+      "difficulty": 2,
+      "time": 90,
+      "authorId": 2,
+      "authorName": "Eva Nováková"
+    },
+    {
+      "id": "3",
+      "image": "https://i.ibb.co/6F61JkR/recipe-3.jpg",
+      "ratingValue": 4.2,
+      "ratingAmount": 80,
+      "recipeName": "Zeleninový salát s fetou a olivami",
+      "difficulty": 2,
+      "time": 30,
+      "authorId": 3,
+      "authorName": "Ctirad Volejník"
+    },
+    {
+      "id": "4",
+      "image": "https://i.ibb.co/mF1FZtH/recipe-4.jpg",
+      "ratingValue": 4.8,
+      "ratingAmount": 200,
+      "recipeName": "Pečené kuře s bylinkami",
+      "difficulty": 3,
+      "time": 120,
+      "authorId": 4,
+      "authorName": "Martin Kovář"
+    },
+    {
+      "id": "5",
+      "image": "https://i.ibb.co/bmQL3W8/recipe-5.jpg",
+      "ratingValue": 4,
+      "ratingAmount": 60,
+      "recipeName": "Špagety s rajčatovou omáčkou",
+      "difficulty": 1,
+      "time": 25,
+      "authorId": 5,
+      "authorName": "Jana Malá"
+    },
+    {
+      "id": "6",
+      "image": "https://i.ibb.co/1Z5sWNj/recipe-6.jpg",
+      "ratingValue": 4.3,
+      "ratingAmount": 110,
+      "recipeName": "Smetanové rizoto s houbami",
+      "difficulty": 2,
+      "time": 45,
+      "authorId": 6,
+      "authorName": "Petr Veselý"
+    },
+    {
+      "id": "7",
+      "image": "https://i.ibb.co/jMpVLBv/recipe-7.jpg",
+      "ratingValue": 4.6,
+      "ratingAmount": 90,
+      "recipeName": "Vanilkové rohlíčky",
+      "difficulty": 3,
+      "time": 75,
+      "authorId": 7,
+      "authorName": "Miládka Smutná"
+    },
+    {
+      "id": "8",
+      "image": "https://i.ibb.co/TwFcxcb/recipe-8.jpg",
+      "ratingValue": 4.1,
+      "ratingAmount": 50,
+      "recipeName": "Hovězí guláš s knedlíky",
+      "difficulty": 2,
+      "time": 180,
+      "authorId": 8,
+      "authorName": "Tomáš Sýkora"
+    },
+    {
+      "id": "9",
+      "image": "https://i.ibb.co/3kx8VdP/recipe-9.jpg",
+      "ratingValue": 4.9,
+      "ratingAmount": 300,
+      "recipeName": "Cheesecake s borůvkami",
+      "difficulty": 3,
+      "time": 60,
+      "authorId": 9,
+      "authorName": "Lucie Dvořáková"
+    },
+    {
+      "id": "10",
+      "image": "https://i.ibb.co/4fCNYVm/recipe-10.jpg",
+      "ratingValue": 4.4,
+      "ratingAmount": 70,
+      "recipeName": "Karbanátky s bramborovou kaší",
+      "difficulty": 2,
+      "time": 50,
+      "authorId": 10,
+      "authorName": "Miroslav Novotný"
+    }
+  ],
+  "all-ingredients": [
+    {
+      "id": "1",
+      "name": "Avokádo"
+    },
+    {
+      "id": "2",
+      "name": "Ananas"
+    },
+    {
+      "id": "3",
+      "name": "Artyčok"
+    },
+    {
+      "id": "4",
+      "name": "Amarant"
+    },
+    {
+      "id": "5",
+      "name": "Arašídy"
+    },
+    {
+      "id": "6",
+      "name": "Arašídové máslo"
+    },
+    {
+      "id": "7",
+      "name": "Ačokča"
+    },
+    {
+      "id": "8",
+      "name": "Anglická slanina"
+    },
+    {
+      "id": "9",
+      "name": "Amaretto"
+    },
+    {
+      "id": "10",
+      "name": "Alfalfa"
+    },
+    {
+      "id": "11",
+      "name": "Banán"
+    },
+    {
+      "id": "12",
+      "name": "Bazalka"
+    },
+    {
+      "id": "13",
+      "name": "Borůvky"
+    },
+    {
+      "id": "14",
+      "name": "Brambory"
+    },
+    {
+      "id": "15",
+      "name": "Brokolice"
+    },
+    {
+      "id": "16",
+      "name": "Bulgur"
+    },
+    {
+      "id": "17",
+      "name": "Bílý jogurt"
+    },
+    {
+      "id": "18",
+      "name": "Bílý chřest"
+    },
+    {
+      "id": "19",
+      "name": "Bobkový list"
+    },
+    {
+      "id": "20",
+      "name": "Balzamikový ocet"
+    },
+    {
+      "id": "21",
+      "name": "Celer"
+    },
+    {
+      "id": "22",
+      "name": "Cuketa"
+    },
+    {
+      "id": "23",
+      "name": "Cizrna"
+    },
+    {
+      "id": "24",
+      "name": "Cibule"
+    },
+    {
+      "id": "25",
+      "name": "Česnek"
+    },
+    {
+      "id": "26",
+      "name": "Červená řepa"
+    },
+    {
+      "id": "27",
+      "name": "Červené víno"
+    },
+    {
+      "id": "28",
+      "name": "Černý čaj"
+    },
+    {
+      "id": "29",
+      "name": "Čerstvý sýr"
+    },
+    {
+      "id": "30",
+      "name": "Černé olivy"
+    },
+    {
+      "id": "31",
+      "name": "Datle"
+    },
+    {
+      "id": "32",
+      "name": "Dýně"
+    },
+    {
+      "id": "33",
+      "name": "Drobné ovoce"
+    },
+    {
+      "id": "34",
+      "name": "Drůbeží maso"
+    },
+    {
+      "id": "35",
+      "name": "Dračí ovoce"
+    },
+    {
+      "id": "36",
+      "name": "Dlouhozrnná rýže"
+    },
+    {
+      "id": "37",
+      "name": "Dezertní víno"
+    },
+    {
+      "id": "38",
+      "name": "Durum mouka"
+    },
+    {
+      "id": "39",
+      "name": "Estragon"
+    },
+    {
+      "id": "40",
+      "name": "Ementál"
+    },
+    {
+      "id": "41",
+      "name": "Eidam"
+    },
+    {
+      "id": "42",
+      "name": "Ešpargo"
+    },
+    {
+      "id": "43",
+      "name": "Escarole"
+    },
+    {
+      "id": "44",
+      "name": "Endivie"
+    },
+    {
+      "id": "45",
+      "name": "Enoki houby"
+    },
+    {
+      "id": "46",
+      "name": "Echinacea"
+    },
+    {
+      "id": "47",
+      "name": "Edamame"
+    },
+    {
+      "id": "48",
+      "name": "Eukalyptus"
+    },
+    {
+      "id": "49",
+      "name": "Fenykl"
+    },
+    {
+      "id": "50",
+      "name": "Fazole"
+    },
+    {
+      "id": "51",
+      "name": "Filet z lososa"
+    },
+    {
+      "id": "52",
+      "name": "Fíky"
+    },
+    {
+      "id": "53",
+      "name": "Frittata"
+    },
+    {
+      "id": "54",
+      "name": "Francouzská hořčice"
+    },
+    {
+      "id": "55",
+      "name": "Francouzský toast"
+    },
+    {
+      "id": "56",
+      "name": "Fazole mungo"
+    },
+    {
+      "id": "57",
+      "name": "Fava fazole"
+    },
+    {
+      "id": "58",
+      "name": "Farfalle"
+    },
+    {
+      "id": "59",
+      "name": "Granátové jablko"
+    },
+    {
+      "id": "60",
+      "name": "Grapefruit"
+    },
+    {
+      "id": "61",
+      "name": "Gouda"
+    },
+    {
+      "id": "62",
+      "name": "Gorgonzola"
+    },
+    {
+      "id": "63",
+      "name": "Grilovaný sýr"
+    },
+    {
+      "id": "64",
+      "name": "Grilovaná zelenina"
+    },
+    {
+      "id": "65",
+      "name": "Ghee máslo"
+    },
+    {
+      "id": "66",
+      "name": "Ghí"
+    },
+    {
+      "id": "67",
+      "name": "Grilované tofu"
+    },
+    {
+      "id": "68",
+      "name": "Gnocchi"
+    },
+    {
+      "id": "69",
+      "name": "Hrušky"
+    },
+    {
+      "id": "70",
+      "name": "Hrášek"
+    },
+    {
+      "id": "71",
+      "name": "Hovězí maso"
+    },
+    {
+      "id": "72",
+      "name": "Houby shiitake"
+    },
+    {
+      "id": "73",
+      "name": "Hummus"
+    },
+    {
+      "id": "74",
+      "name": "Hořká čokoláda"
+    },
+    {
+      "id": "75",
+      "name": "Hořčice"
+    },
+    {
+      "id": "76",
+      "name": "Hrách"
+    },
+    {
+      "id": "77",
+      "name": "Hnědá rýže"
+    },
+    {
+      "id": "78",
+      "name": "Hlávkový salát"
+    },
+    {
+      "id": "79",
+      "name": "Hlívový guláš"
+    },
+    {
+      "id": "80",
+      "name": "Hrachová kaše"
+    },
+    {
+      "id": "81",
+      "name": "Jablka"
+    },
+    {
+      "id": "82",
+      "name": "Jalapeños"
+    },
+    {
+      "id": "83",
+      "name": "Jahody"
+    },
+    {
+      "id": "84",
+      "name": "Jogurt"
+    },
+    {
+      "id": "85",
+      "name": "Jalovec"
+    },
+    {
+      "id": "86",
+      "name": "Ječmen"
+    },
+    {
+      "id": "87",
+      "name": "Ječná krupice"
+    },
+    {
+      "id": "88",
+      "name": "Javorový sirup"
+    },
+    {
+      "id": "89",
+      "name": "Jedlý kaštan"
+    },
+    {
+      "id": "90",
+      "name": "Jehněčí maso"
+    },
+    {
+      "id": "91",
+      "name": "Kokos"
+    },
+    {
+      "id": "92",
+      "name": "Kapusta"
+    },
+    {
+      "id": "93",
+      "name": "Křen"
+    },
+    {
+      "id": "94",
+      "name": "Kari pasta"
+    },
+    {
+      "id": "95",
+      "name": "Kedlubna"
+    },
+    {
+      "id": "96",
+      "name": "Kmín"
+    },
+    {
+      "id": "97",
+      "name": "Kyselé zelí"
+    },
+    {
+      "id": "98",
+      "name": "Koprová omáčka"
+    },
+    {
+      "id": "99",
+      "name": "Krevety"
+    },
+    {
+      "id": "100",
+      "name": "Koriandr"
+    },
+    {
+      "id": "101",
+      "name": "Lilek"
+    },
+    {
+      "id": "102",
+      "name": "Lněné semínko"
+    },
+    {
+      "id": "103",
+      "name": "Lupina"
+    },
+    {
+      "id": "104",
+      "name": "Lískové oříšky"
+    },
+    {
+      "id": "105",
+      "name": "Lahůdkové droždí"
+    },
+    {
+      "id": "106",
+      "name": "Losos"
+    },
+    {
+      "id": "107",
+      "name": "Loupané mandle"
+    },
+    {
+      "id": "108",
+      "name": "Limetka"
+    },
+    {
+      "id": "109",
+      "name": "Lahůdková šunka"
+    },
+    {
+      "id": "110",
+      "name": "Levandule"
+    },
+    {
+      "id": "111",
+      "name": "Med"
+    },
+    {
+      "id": "112",
+      "name": "Mléko"
+    },
+    {
+      "id": "113",
+      "name": "Mouka"
+    },
+    {
+      "id": "114",
+      "name": "Mango"
+    },
+    {
+      "id": "115",
+      "name": "Mrkev"
+    },
+    {
+      "id": "116",
+      "name": "Máslo"
+    },
+    {
+      "id": "117",
+      "name": "Mák"
+    },
+    {
+      "id": "118",
+      "name": "Miso pasta"
+    },
+    {
+      "id": "119",
+      "name": "Mleté maso"
+    },
+    {
+      "id": "120",
+      "name": "Medvědí česnek"
+    },
+    {
+      "id": "121",
+      "name": "Niva"
+    },
+    {
+      "id": "122",
+      "name": "Nektarinky"
+    },
+    {
+      "id": "123",
+      "name": "Nudle"
+    },
+    {
+      "id": "124",
+      "name": "Nutella"
+    },
+    {
+      "id": "125",
+      "name": "Nadýchané těsto"
+    },
+    {
+      "id": "126",
+      "name": "Nugát"
+    },
+    {
+      "id": "127",
+      "name": "Nashi"
+    },
+    {
+      "id": "128",
+      "name": "Olivový olej"
+    },
+    {
+      "id": "129",
+      "name": "Ovesné vločky"
+    },
+    {
+      "id": "130",
+      "name": "Okurka"
+    },
+    {
+      "id": "131",
+      "name": "Ostružiny"
+    },
+    {
+      "id": "132",
+      "name": "Ořechy"
+    },
+    {
+      "id": "133",
+      "name": "Ovocný džus"
+    },
+    {
+      "id": "134",
+      "name": "Oregano"
+    },
+    {
+      "id": "135",
+      "name": "Pomeranče"
+    },
+    {
+      "id": "136",
+      "name": "Paprika"
+    },
+    {
+      "id": "137",
+      "name": "Petržel"
+    },
+    {
+      "id": "138",
+      "name": "Pažitka"
+    },
+    {
+      "id": "139",
+      "name": "Pečené kuře"
+    },
+    {
+      "id": "140",
+      "name": "Pistácie"
+    },
+    {
+      "id": "141",
+      "name": "Pohanka"
+    },
+    {
+      "id": "142",
+      "name": "Parmezán"
+    },
+    {
+      "id": "143",
+      "name": "Pesto"
+    },
+    {
+      "id": "144",
+      "name": "Quinoa"
+    },
+    {
+      "id": "145",
+      "name": "Rajčata"
+    },
+    {
+      "id": "146",
+      "name": "Rukola"
+    },
+    {
+      "id": "147",
+      "name": "Ředkvičky"
+    },
+    {
+      "id": "148",
+      "name": "Řepa"
+    },
+    {
+      "id": "149",
+      "name": "Římský salát"
+    },
+    {
+      "id": "150",
+      "name": "Rýže"
+    },
+    {
+      "id": "151",
+      "name": "Sýr"
+    },
+    {
+      "id": "152",
+      "name": "Šunka"
+    },
+    {
+      "id": "153",
+      "name": "Šafrán"
+    },
+    {
+      "id": "154",
+      "name": "Švestky"
+    },
+    {
+      "id": "155",
+      "name": "Špenát"
+    },
+    {
+      "id": "156",
+      "name": "Šalvěj"
+    },
+    {
+      "id": "157",
+      "name": "Škrob"
+    },
+    {
+      "id": "158",
+      "name": "Těstoviny"
+    },
+    {
+      "id": "159",
+      "name": "Tuňák"
+    },
+    {
+      "id": "160",
+      "name": "Tofu"
+    },
+    {
+      "id": "161",
+      "name": "Tymián"
+    },
+    {
+      "id": "162",
+      "name": "Topinambur"
+    },
+    {
+      "id": "163",
+      "name": "Udon nudle"
+    },
+    {
+      "id": "164",
+      "name": "Uzený losos"
+    },
+    {
+      "id": "165",
+      "name": "Umami pasta"
+    },
+    {
+      "id": "166",
+      "name": "Uzené maso"
+    },
+    {
+      "id": "167",
+      "name": "Umeboshi švestky"
+    },
+    {
+      "id": "168",
+      "name": "Vajíčka"
+    },
+    {
+      "id": "169",
+      "name": "Vlašské ořechy"
+    },
+    {
+      "id": "170",
+      "name": "Vanilka"
+    },
+    {
+      "id": "171",
+      "name": "Vodnice"
+    },
+    {
+      "id": "172",
+      "name": "Víno"
+    },
+    {
+      "id": "173",
+      "name": "Vepřové maso"
+    },
+    {
+      "id": "174",
+      "name": "Vločkový sýr"
+    },
+    {
+      "id": "175",
+      "name": "Vývar"
+    },
+    {
+      "id": "176",
+      "name": "Wasabi"
+    },
+    {
+      "id": "177",
+      "name": "Wakame řasa"
+    },
+    {
+      "id": "178",
+      "name": "Wonton těsto"
+    },
+    {
+      "id": "179",
+      "name": "Waldorfský salát"
+    },
+    {
+      "id": "180",
+      "name": "Whisky"
+    },
+    {
+      "id": "181",
+      "name": "Xanthan"
+    },
+    {
+      "id": "182",
+      "name": "Xylitol"
+    },
+    {
+      "id": "183",
+      "name": "Yuzu"
+    },
+    {
+      "id": "184",
+      "name": "Yerba mate"
+    },
+    {
+      "id": "185",
+      "name": "Yam"
+    },
+    {
+      "id": "186",
+      "name": "Yogurt cheese"
+    },
+    {
+      "id": "187",
+      "name": "Yuzu koshō"
+    },
+    {
+      "id": "188",
+      "name": "Zázvor"
+    },
+    {
+      "id": "189",
+      "name": "Zelený čaj"
+    },
+    {
+      "id": "190",
+      "name": "Zelí"
+    },
+    {
+      "id": "191",
+      "name": "Zelené fazolky"
+    },
+    {
+      "id": "192",
+      "name": "Zeleninový vývar"
+    },
+    {
+      "id": "193",
+      "name": "Zelená paprika"
+    },
+    {
+      "id": "194",
+      "name": "Zelené olivy"
+    },
+    {
+      "id": "195",
+      "name": "Zelené jablko"
+    }
+  ],
+  "profiles": [
+    {
+      "id": "1",
+      "name": "Pepa Pavel",
+      "join_date": "2020-09-15",
+      "written_recipes": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "favourited_recipes": [
+        1,
+        2,
+        3
+      ],
+      "ingredients": [
+        2,
+        5,
+        7,
+        11,
+        19,
+        34,
+        45,
+        50,
+        68,
+        73
+      ],
+      "score": 4.8999999,
+      "reviews": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Eva Nováková",
+      "join_date": "2021-01-01",
+      "written_recipes": [],
+      "favourited_recipes": [
+        2,
+        4,
+        5,
+        8,
+        9,
+        10
+      ],
+      "ingredients": [
+        1,
+        12,
+        22,
+        33,
+        39,
+        42,
+        53,
+        60,
+        77,
+        88,
+        "113",
+        "11",
+        "83",
+        "139",
+        "42"
+      ],
+      "score": 0,
+      "reviews": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Ctirad Volejník",
+      "join_date": "2022-02-04",
+      "written_recipes": [
+        2,
+        4,
+        6,
+        8,
+        10
+      ],
+      "favourited_recipes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "ingredients": [
+        8,
+        16,
+        21,
+        24,
+        26,
+        38,
+        49,
+        54,
+        66,
+        70
+      ],
+      "score": 1,
+      "reviews": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Martin Kovář",
+      "join_date": "2019-10-11",
+      "written_recipes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "favourited_recipes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "ingredients": [
+        3,
+        10,
+        15,
+        27,
+        31,
+        36,
+        40,
+        61,
+        75,
+        84
+      ],
+      "score": 5,
+      "reviews": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Jana Malá",
+      "join_date": "2023-09-09",
+      "written_recipes": [
+        1,
+        3,
+        5,
+        7
+      ],
+      "favourited_recipes": [
+        2,
+        3,
+        4,
+        6,
+        7
+      ],
+      "ingredients": [
+        4,
+        14,
+        20,
+        25,
+        29,
+        47,
+        56,
+        62,
+        82,
+        90
+      ],
+      "score": 2.89,
+      "reviews": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Petr Veselý",
+      "join_date": "2020-05-05",
+      "written_recipes": [
+        1,
+        2,
+        5,
+        7,
+        9
+      ],
+      "favourited_recipes": [
+        1,
+        2,
+        3
+      ],
+      "ingredients": [
+        6,
+        9,
+        18,
+        23,
+        30,
+        35,
+        43,
+        52,
+        58,
+        76
+      ],
+      "score": 4.235,
+      "reviews": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Miládka Smutná",
+      "join_date": "2021-12-02",
+      "written_recipes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "favourited_recipes": [],
+      "ingredients": [
+        13,
+        17,
+        28,
+        32,
+        37,
+        41,
+        48,
+        55,
+        63,
+        72
+      ],
+      "score": 3.5,
+      "reviews": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Tomáš Sýkora",
+      "join_date": "2023-08-25",
+      "written_recipes": [],
+      "favourited_recipes": [],
+      "ingredients": [
+        15,
+        11,
+        10,
+        39,
+        49,
+        67,
+        73,
+        78,
+        79,
+        80
+      ],
+      "score": 0,
+      "reviews": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Lucie Dvořáková",
+      "join_date": "2011-11-11",
+      "written_recipes": [
+        8
+      ],
+      "favourited_recipes": [
+        1
+      ],
+      "ingredients": [
+        44,
+        46,
+        58,
+        74,
+        81,
+        86,
+        91,
+        93,
+        96,
+        100
+      ],
+      "score": 5,
+      "reviews": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Miroslav Novotný",
+      "join_date": "2013-06-28",
+      "written_recipes": [
+        1,
+        2,
+        4,
+        5,
+        6
+      ],
+      "favourited_recipes": [
+        2,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "ingredients": [
+        38,
+        55,
+        62,
+        64,
+        66,
+        85,
+        92,
+        97,
+        99,
+        83
+      ],
+      "score": 2,
+      "reviews": []
+    }
+  ]
+}

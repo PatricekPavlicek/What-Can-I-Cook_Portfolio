@@ -1,0 +1,7 @@
+.error-text{
+    color: var(--red);
+    font-size: var(--text-size-p);
+    text-align: center;
+    width: 70%;
+    padding: 0;
+}

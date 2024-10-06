@@ -1,0 +1,33 @@
+.input-wrapper{ 
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.label{
+    transform: translate(20px, -5px);
+    font-weight: bold;
+    font-size: var(--text-size-h6);
+    transition: color 350ms;
+}
+
+.input{
+    font-size: var(--text-size-h6);
+    border: 1px solid var(--dark-gray);
+    border-radius: var(--border-radius-m);
+    padding: var(--spacing-small-s) var(--spacing-small-l);
+    width: calc(100% - 40px);
+    transition: color 350ms;
+}
+
+.input-wrapper:focus-within .label{
+    color: var(--orange);
+}
+
+.input-wrapper:focus-within .input{
+    border: 1px solid var(--dark-gray);
+    outline: none;
+    color: var(--orange);
+}
